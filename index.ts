@@ -46,7 +46,7 @@ const PLAYERS: Array<new () => Player> = [
   QwenThinking,
 ];
 
-const GAMES_PER_WAR = 1000;
+const GAMES_PER_WAR = 1500;
 const CONFIDENCE_Z = 1.96;
 const MAX_TURNS_PER_GAME = Infinity; // 40 * 100;
 const MAX_WAR_ROUNDS = Infinity; //30;

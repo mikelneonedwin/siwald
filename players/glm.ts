@@ -1,6 +1,6 @@
 export class GLM implements Player {
   level: Level = 1;
-  xp: number = 1000;
+  xp: number = 100;
 
   makeChoice(input: { enemyLevel: Level; xp: number; power: number }): Move {
     const { enemyLevel, xp: enemyXp, power } = input;
