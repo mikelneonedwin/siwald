@@ -2,11 +2,16 @@
   "name": "webber",
   "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/node": "^25.3.3"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "private": true,
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "build:js": "bun build --outfile=dist/index.js index.ts",
+    "build": "bun index.ts"
+  }
 }
