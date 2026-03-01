@@ -1,5 +1,5 @@
 {
-  "name": "webber",
+  "name": "siwald",
   "module": "index.ts",
   "devDependencies": {
     "@types/bun": "latest",

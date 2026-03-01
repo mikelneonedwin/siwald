@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "webber",
+      "name": "siwald",
       "devDependencies": {
         "@types/bun": "latest",
         "@types/node": "^25.3.3",
